@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/formulaire.css">
+    
+</head>
+<body>
+    <form action="" method="get">
+        <div class="contactez-nous">
+            <h1>Formulaire de contact</h1><em><p>Une demande, une question, envie de nous envoyer un message ? N'hésitez pas à utiliser ce formulaire pour nous contacter !</p></em>
+            <div class="div">
+               <label for="nom">Votre nom et prénom</label><p><input type="text" id="nom" name="nom" placeholder="Nom & Prénom" required></p>
+            </div>
+            <div class="div">
+               <label for="email">Votre e-mail</label><p><input type="email" id="email" name="email" placeholder="monadresse@mail.com" invalid></p>
+            </div>
+            <div class="div">
+               <label for="object">Le sujet de votre message</label><p><input type="text" id="object" name="object" required></p>
+            </div>
+            <div class="div">
+                <label for="message">Votre message</label><p><textarea name="message" id="message" placeholder="Bonjour, je vous contacte car..." required></textarea></p>
+            </div>
+            <div class="div">
+               <input type="checkbox" name="j'accepte"  required><label for="J'accepte">J'accepte que mon email soit stocké pour apporter une réponse</label>
+            </div>    
+            <div class="div">
+                <p><button type="submit" >Envoyer mon message</button></p>
+            </div>
+            <div class="div">
+                <a href="/paged'acceuil.html">Go back</a>
+            </div>
+        </div>
+           
+    </form>
+</body>
+</html>

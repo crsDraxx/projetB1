@@ -1,0 +1,59 @@
+QUESTIONS TWINS
+1/Quel est le type de chiffrement de cet algorithme ?
+
+le chiffrement utilisé dans cet algorithme est symetrique qui repose sur deux alphabets mélangés qui vont changer apres chaque caractere chiffré.   
+
+2/Quel nombre de clés peut-on constituer ?
+
+le nombre de clés que l'on peut constituer se determine par la formule des dénombrements par permutations c'est-à-dire n! car on vas permuter chaque lettres de l'alphabet donc 26! soit 4 * 10^32 possibilités.
+
+Or  nous avonc deux clés donc le résultat sera 26! * 26! soit 1.6 * 10^32 possibilités au totale
+
+3/Que pensez-vous de la sécurité de cet algorithme ?
+
+Le nombre de clés possibles est énorme ce qui fait qu'il va etre difficile de forcer le système sans en connaitre une faiblesse
+
+4/Quels sont ses principales qualités et défauts ?
+
+QUALITES
+
+-Possibilités de cles très grands 
+-Permutations  des lettres de chaque clés a chaque fois qu'un caractere a été chiffré => renforce la sécurité des clés
+
+DEFAUTS
+
+-Sensible aux erreurs=> une erreurs dans le message ou dans les clés peut empecher le dechiffrement 
+
+TEXTE A DECHIFFRER:
+I SEE A RED DOOR AND I WANT IT PAINTED BLACK NO COLORS ANYMORE I WANT THEM TO TURN BLACK I SEE THE GIRLS WALK BY DRESSED IN THEIR SUMMER CLOTHES I HAVE TO TURN MY HEAD UNTIL MY DARKNESS GOES
+
+QUESTIONS WAVES
+
+1/Quel est le type de chiffrement de cet algorithme ?
+
+le chiffrement utilisé dans cet algorithme est un chiffrement par transposition car il ne modifie pas les lettres du messages ils les changent juste d'emplacement en le répartissant sur plusieur lignes en motif "vagues".
+
+2/Quel nombre de clés peut-on constituer ?
+
+n = nombre de ligne qui respecte la condition n ≥ 2
+offset = ligne de départ 
+
+3/Que pensez-vous de la sécurité de cet algorithme ?
+
+Peu sécurisé car grace à l'analyse visuelle il nous est facile de retrouver la structure de base si l'on soupconne ce type de chiffrement.
+Cependant cette méthode est tres pratique lorsque l'on doit brouiller un message brievement
+
+4/Quels sont ses principales qualités et défauts ?
+
+QUALITES 
+
+-Pas de perte de données 
+-Facilement faisable à la main
+
+DEFAUX
+
+-Facile à casser
+-Linéarite de la structure fait que c'est plus simple à deviner
+
+TEXTE A DECHIFFRER:
+WATCHING GIRLS GO PASSING BY IT AINT THE LATEST THING IM JUST STANDING IN A DOORWAY IM JUST TRYING TO MAKE SOME SENSE OUT OF THESE GIRLS GO PASSING BY THE TALES THEY TELL OF MEN IM NOT WAITING ON A LADY IM JUST WAITING ON A FRIEND
